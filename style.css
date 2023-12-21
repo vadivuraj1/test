@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    border-radius: 10px 10px 0 0; 
+    width: 88.6%;
+    margin: 0 auto; 
+    background-color: #ffe6ff;
+}
+.nav-link{
+    width: 100px;
+    text-align: center;
+}
+.acti{
+    background-color: white;
+    border-radius: 10px;
+}
+.home{
+    background-color: #ff99bb; 
+    width: 90%;
+    height: auto; 
+    margin: 0 auto;
+}
+.squre{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.saving{
+    width: 100%;
+    height: auto;
+    background-color: skyblue;
+}
+.box-s{
+    margin: 100px auto;
+}
+.s-p{
+    width: 100%;
+}
+.gift{
+    background-color: rgb(69, 13, 118);
+    width: 90%;
+    margin: 30px auto;
+    border-radius: 10px;
+    height: auto;
+}
+.g-box{
+    margin: 200px auto;
+}
+.mail{
+    outline: none;
+    border: solid rgb(195, 194, 194) 1px;
+    width: 100%;
+    padding: 10px;
+}
+.send{
+    background-color: #c40041;
+    color: white;
+    padding: 10px 20px;
+    border: #c40041 1px;
+    margin: 20px auto;
+    display: flex;
+}
+.send:hover{
+    color: #c40041;
+    background-color: white;
+    border: #c40041 solid 1px;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+    height: auto;
+}
+@media(max-width:600px){
+    .home{
+        width: 90%;
+        overflow-x: hidden;
+    }
+   .nav-item a{
+    margin: 0 auto;
+   }
+   .squre{
+    margin-left: 0;
+    width: 100%;
+    margin-top: 0;
+    padding: 10px;
+   }
+   .box{
+    margin: 0 auto;
+   }
+   #savings{
+    width: 100%;
+    height: auto;
+    
+   }
+   .saving{
+    width: 100%;
+    height: auto;
+   }
+   .box-s{
+     padding: 10px;
+     margin-top: 0;
+
+   }
+   .card-con{
+    gap: 20px;
+   }
+   .g-box{
+    margin: 0;
+    padding: 5px;
+   }
+   .gift{
+    margin: 20px auto;
+   }
+}
